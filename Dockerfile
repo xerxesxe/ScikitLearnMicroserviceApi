@@ -16,7 +16,7 @@ COPY . app.py /app/
 
 ## Step 3:
 # Install packages from requirements.txt
-hadolint ignore=DL3013
+# hadolint ignore=DL3013
 
 RUN pip install Flask==1.1.1 
 RUN pip install numpy==1.17.0 
