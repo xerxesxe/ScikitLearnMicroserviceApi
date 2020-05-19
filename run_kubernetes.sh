@@ -4,11 +4,11 @@
 
 # Step 1:
 # This is your Docker ID/path
-dockerpath=acidd/udacity_microservice:v1
+dockerpath=xerxesxe/udacity_project5:1.0
 
 # Step 2
 # Run the Docker Hub container with kubernetes
-kubectl run udacity-microservice --image=acidd/udacity_microservice:v1 --port=80
+kubectl run udacity-microservice --image=xerxesxe/udacity_project5:1.0 --port=80
 
 # Step 3:
 # List kubernetes pods
