@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=svg)](https://circleci.com/gh/circleci/circleci-docs)
+
 ### This is a Udacity DevOps Project
 
 In this project, I will operationalize a Machine Learning Microservice API.
