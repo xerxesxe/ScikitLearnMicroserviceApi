@@ -27,7 +27,7 @@ make install
 3. Run the make_prediction.sh script
 
 ### Files
-/*
+
 1. Makefile: Makefile for setup and install
 2. requirements.txt: Libs for Python
 3. Dockerfile: Dockerfile
@@ -38,4 +38,4 @@ make install
 8. make_prediction.sh: script that parse the payload for sklearn
 9. upload_docker.sh: uploads docker and Tags it
 10. .circleci/config.yml: CirclCI configuration
-*/
+
