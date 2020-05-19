@@ -13,4 +13,4 @@ docker image ls -f label=name=udacity_project5
 
 # Step 3: 
 # Run flask app
-docker run  -p 127.0.0.1:8080:80 xerxesxe/udacity_project5:1.0
+docker run  -p 5000:5000 xerxesxe/udacity_project5:1.0
