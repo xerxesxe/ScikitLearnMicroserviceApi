@@ -4,7 +4,7 @@
 
 # Step 1:
 # Build image and add a descriptive tag
-docker build . -t acidd/udacity_project5:1.0
+docker build . -t xerxesxe/udacity_project5:1.0
 
 
 # Step 2: 
@@ -13,4 +13,4 @@ docker image ls -f label=name=udacity_project5
 
 # Step 3: 
 # Run flask app
-docker run  -p 127.0.0.1:8080:80 udacity_project5:1.0
+docker run  -p 127.0.0.1:8080:80 xerxesxe/udacity_project5:1.0
