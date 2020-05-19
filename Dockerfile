@@ -1,7 +1,7 @@
 FROM python:3.7.3-stretch
 
 LABEL version="1.0"
-LABEL name="udacity_project5"
+LABEL name="udacity_microservice"
 
 ## Step 1:
 # Create a working directory
