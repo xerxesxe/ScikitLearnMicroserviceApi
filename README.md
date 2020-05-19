@@ -27,7 +27,7 @@ make install
 3. Run the make_prediction.sh script
 
 ### Files
-/*:
+/*
 1. Makefile: Makefile for setup and install
 2. requirements.txt: Libs for Python
 3. Dockerfile: Dockerfile
