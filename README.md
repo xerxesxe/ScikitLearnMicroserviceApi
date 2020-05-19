@@ -25,3 +25,15 @@ make install
 1. Run in Docker:  `./run_docker.sh`
 2. Run in Kubernetes:  `./run_kubernetes.sh`
 3. Run the make_prediction.sh script
+
+### Files
+Makefile: Makefile for setup and install
+requirements.txt: Libs for Python
+Dockerfile: Dockerfile
+app.py: Application for Performing a sklearn prediction
+model_data/boston_housing_prediction.joblib: Pretrained sklearn model for the API
+run_docker.sh: script for easy docker run
+run_kubernetes.sh: runs a kubernetes cluster
+make_prediction.sh: script that parse the payload for sklearn
+upload_docker.sh: uploads docker and Tags it
+.circleci/config.yml: CirclCI configuration
